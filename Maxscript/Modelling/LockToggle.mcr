@@ -10,7 +10,7 @@ _GetLockTranform =  getTransformLockFlags selection[1] as string
 
 if _GetLockTranform  == "#{}" 
 	 then  ( for i in selection do  setTransformLockFlags i #all; messagebox "Locked" )
-		 else  ( for i in selection do setTransformLockFlags i  #none;  messagebox "Lnlocked" )
+		 else  ( for i in selection do setTransformLockFlags i  #none;  messagebox "Unlocked" )
 			 
 
 
